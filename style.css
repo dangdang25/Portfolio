@@ -1,0 +1,265 @@
+@charset "UTF-8";
+/* cssを記入しよう */
+html{
+  font-size: 100%;
+}
+img{
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5vw;
+}
+.logo{
+  height: auto;
+  line-height: 1px;
+  padding: 10px 0;
+}
+.logo img{
+  max-width: 80px;
+}
+header ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+header li {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-right: 20px;
+  background-color: #aaa818;
+  border-radius: 50vh;
+  box-shadow: 10px 10px 0px 0px #122c15;
+}
+header li a{
+  color: black;
+}
+
+#mainvisual{
+  line-height: 80px;
+  padding: 0 0;
+}
+
+section#gadhinan .sou{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+main .culture-left{
+  display: flex;
+  flex-wrap: wrap;
+  width: 2700px;
+  height: 600px;
+  margin: 60px 20px 60px 60px;
+  align-items: center;
+}
+.culture{
+  color: #fff;
+  background-color: #17B9DD;
+  font-family: Noto Sans jp;
+  font-size: 24px;
+  line-height: 40px;
+  border-radius: 5vh;
+  padding: 20px;
+}
+
+main .culture-right{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px 60px 60px 0;
+  height: 600px;
+}
+main .line-1{
+  width: 300px;
+  height: auto;
+  padding-top: 60px;
+}
+main .blue3{
+
+}
+main .line-2{
+  width: 300px;
+  height: auto;
+}
+
+main #kanran .kuang2{
+  padding: 0 90px;
+}
+main #kanran .kanran-toku{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 50px 0 0 100px;
+}
+.toku{
+  font-size: 40px;
+  color: #122C15;
+  letter-spacing: 55px;
+  font-family: Noto Sans jp;
+  text-align: left;
+  writing-mode: vertical-rl;
+  margin: 80px 20px 80px 20px;
+}
+.green-back{
+  color: #fff;
+  background-color: #122C15;
+  font-family: Noto Sans jp;
+  font-size: 24px;
+  line-height: 40px;
+  border-radius: 10vh;
+  padding: 48px;
+  width: 990px;
+}
+main .kanran-p1{
+  width: 900px;
+  height: auto;
+  margin-left: 180px;
+}
+main .kanran-p2{
+  width: 900px;
+  height: auto;
+  margin-left: 360px;
+}
+.bunan{
+  text-align: center;
+  color: #122C15;
+  font-family: Noto Sans jp;
+  font-size: 26px;
+  line-height: 70px;
+  border-radius: 10vh;
+  padding: 48px;
+}
+h3.bunan-title{
+  font-size: 2rem;
+}
+main #product .kuang3{
+  width: 1300px;
+  height: auto;
+  padding: 0 90px 0 0;
+}
+.introduction{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+main #product .saida{
+  width: 300px;
+  height: auto;
+}
+main #product ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px 0 60px;
+  width: 900px;
+}
+main #product li{
+  color: #122C15;
+  font-weight: Medium;
+  line-height: 48px;
+  text-align: left;
+  font-family: Noto Sans jp;
+  font-size: 20px;
+}
+
+main h4 .info-title{
+  font-size: 2rem;
+}
+main #CM .kuang4{
+  width: 1200px;
+  height: auto;
+  padding: 0 90px 0 0;
+}
+main #CM .CM-douga{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+main #CM .CM-botton{
+ width: 240px;
+ margin: 130px  80px 130px 0;
+ display: flex;
+ align-items: center;
+}
+main #CM .CM-flim video{
+  width: 600px;
+  height: auto;
+}
+
+main #shop ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+main #shop li img{
+  width: 400px;
+  height: 300px;
+}
+main #shop .shop-name{
+  color: #ffff;
+  background-color: #AAA818;
+  height: 100px;
+  font-family: Noto Sans jp;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+main .buy{
+  display: flex;
+  justify-content: center;
+  width: 240px;
+ height: auto;
+ margin: 0 560px 200px 560px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+footer .footer-main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+footer .footer-logo{
+  display: flex;
+  justify-content: center;
+  padding: 30px 100px 10px 300px;
+}
+footer h1{
+  width: 50px;
+  height: auto;
+  line-height: 1px;
+}
+footer h6{
+  font-size: 60px;
+  color: #122c15;
+  font-family: Noto Sans jp;
+  font-weight: bold;
+}
+footer p{
+  display: flex;
+  justify-content: center;
+  padding: 30px 100px 10px 300px;
+}
+footer .koushiki{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0 100px 0 300px;
+}
+footer .ko-botton{
+  width: 40px;
+  height: auto;
+  margin: 10px 10px;
+}
+footer .top-botton{
+  width: 100px;
+  height: auto;
+}
